@@ -1,0 +1,117 @@
+.pagina-compra {
+  display: flex;
+  flex-direction: column;
+  background-color: #e4e4e4;
+}
+
+.cabecalho {
+  background-color: #Fff;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  height: 10vh;
+  box-shadow: 0px 4px 40% #000;
+}
+
+.conteudo-compra {
+  background-color: #e4e4e4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 93vh;
+}
+
+.conteudo-compra > h2 {
+  color:#746A6A;
+  font-size: 30px;
+}
+
+.interface-compra {
+  display: flex;
+  flex-direction: row;
+  width: 56vw;
+  height: 56vh;
+  padding-bottom: 40px;
+  border-radius: 20px;
+}
+
+.int-esquerda {
+  width: 50%;
+  height: 100%;
+  padding: 15px;
+  background-color: #CACACA;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.int-direita {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 50%;
+  height: 107%;
+  border-radius: 10px;
+}
+
+.int-direita div {
+  margin: 8px;
+}
+
+.int-direita h2 {
+  font-size: 20px;
+  color:#646464;
+}
+
+.int-direita input {
+  border-radius: 8px;
+  padding: 9px;
+  border-color: #DFDFDF;
+  box-shadow: none;
+  width: 9vw;
+  box-shadow: 0px 2px 40% #000;
+}
+
+.valor input {
+  width: 20vw;
+}
+
+.meio {
+  display: flex;
+  flex-direction: row;
+}
+
+.baixo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.baixo button {
+  padding: 14px;
+  border: none;
+  background-color: rgb(69, 69, 254);
+  width: 23.5vw;
+  color:#fff;
+  font-size: 18px;
+}
+
+.valores {
+  padding-bottom: 10px;
+}
+
+.vl-parcela {
+  display: flex;
+  flex-direction: row;
+}
+
+.vl-total {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  cursor: pointer;
+}
